@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>sum of cube function</title>
+
+<h1>
+  Output of function is: 
+</h1>
+<p id="demo"> </p>
+<p id="demo2"> </p>
+<button type="button" onclick="displayDate()">Date</button>
+
+
+<button type="button" onclick="addition()">addition 
+</button>
+</head>
+
+<body>
+
+<script>
+
+function displayDate(){
+  document.getElementById("demo2").innerHTML = Date();
+}
+
+function addition(){
+  document.getElementById("demo").innerHTML = 4+5;
+}
+
+</script>
+</body>
+
+</html>
